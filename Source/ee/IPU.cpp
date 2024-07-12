@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <exception>
 #include <functional>
+#include <algorithm>
 #include "IPU.h"
 #include "IPU_MacroblockAddressIncrementTable.h"
 #include "IPU_MacroblockTypeITable.h"

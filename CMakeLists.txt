@@ -80,6 +80,7 @@ if(BUILD_PLAY)
 
 		if(TARGET_PLATFORM_SWITCH)
 			add_subdirectory(Source/ui_switch)
+			set(CMAKE_CXX_STANDARD 17)
 		endif(TARGET_PLATFORM_SWITCH)
 	endif()
 endif(BUILD_PLAY)
